@@ -1,0 +1,21 @@
+# ninja log v5
+1	289	7205736316766522	CMakeFiles/dstructures.dir/main.cpp.obj	34fdec29aab9a4b3
+291	373	7205736317516513	dstructures.exe	58da1a804c6b3310
+3	270	7205758891607855	CMakeFiles/dstructures.dir/main.cpp.obj	34fdec29aab9a4b3
+270	348	7205758892208610	dstructures.exe	58da1a804c6b3310
+2	268	7205758998520290	CMakeFiles/dstructures.dir/main.cpp.obj	34fdec29aab9a4b3
+268	334	7205758999106040	dstructures.exe	58da1a804c6b3310
+2	348	7205759512999955	CMakeFiles/dstructures.dir/main.cpp.obj	34fdec29aab9a4b3
+348	419	7205759513645815	dstructures.exe	58da1a804c6b3310
+2	387	7205759733068578	CMakeFiles/dstructures.dir/main.cpp.obj	34fdec29aab9a4b3
+398	475	7205759733887495	dstructures.exe	58da1a804c6b3310
+2	390	7205760093528584	CMakeFiles/dstructures.dir/main.cpp.obj	34fdec29aab9a4b3
+391	480	7205760094244514	dstructures.exe	58da1a804c6b3310
+3	425	7205763841023931	CMakeFiles/dstructures.dir/main.cpp.obj	34fdec29aab9a4b3
+426	507	7205763841774825	dstructures.exe	58da1a804c6b3310
+2	407	7205764486266752	CMakeFiles/dstructures.dir/main.cpp.obj	34fdec29aab9a4b3
+407	498	7205764486997682	dstructures.exe	58da1a804c6b3310
+2	415	7205766187596528	CMakeFiles/dstructures.dir/main.cpp.obj	34fdec29aab9a4b3
+415	496	7205766188342429	dstructures.exe	58da1a804c6b3310
+2	426	7205766673819091	CMakeFiles/dstructures.dir/main.cpp.obj	34fdec29aab9a4b3
+426	507	7205766674558933	dstructures.exe	58da1a804c6b3310
