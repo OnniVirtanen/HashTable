@@ -12,9 +12,27 @@ template<typename K, typename V>
 class HashTable
 {
 public:
+    /**
+     * Insert key and value
+     * @param key
+     * @param value
+     */
     void insert(K key, V value);
+
+    /**
+     * Remove pair of key and value
+     * @param key
+     * @return true if key exists and operation was successful
+     */
     bool remove(K key);
+
+    /**
+     * Search value by key
+     * @param key
+     * @return optional of value
+     */
     std::optional<V> search(K key) const;
+
     explicit HashTable(size_t size = 101) : buckets(size) {}
 private:
     int hash(K key) const;
@@ -33,15 +51,12 @@ void HashTable<K,V>::insert(K key, V value)
     std::list<std::pair<K,V>>& bucket = buckets[index];
     for (std::pair<K,V>& pair : bucket)
     {
-        // if key exists overwrite new value to it
         if (pair.first == key)
         {
             pair.second = value;
             return;
         }
     }
-
-    // push new key and value pair to bucket
     bucket.push_back({key, value});
 }
 
@@ -52,15 +67,12 @@ bool HashTable<K,V>::remove(K key)
     std::list<std::pair<K,V>>& bucket = buckets[index];
     for (auto it = bucket.begin(); it != bucket.end(); ++it)
     {
-        // if key exists remove it and data
         if (it->first == key)
         {
             bucket.erase(it);
             return true;
         }
     }
-
-    // key does not exist
     return false;
 }
 
